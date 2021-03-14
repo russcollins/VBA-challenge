@@ -63,11 +63,7 @@ For Each ws In Worksheets
             opening_price = 0
                         Cells(number_tickers + 1, 12).Value = total_stock_volume
             
-            total_stock_volume = 0
-            
-    
-    
-        
+            total_stock_volume = 0     
     Next i
     
 
@@ -117,7 +113,6 @@ For Each ws In Worksheets
     Range("Q4").Value = greatest_stock_volume
     
 Next ws
-
 
 End Sub
 
