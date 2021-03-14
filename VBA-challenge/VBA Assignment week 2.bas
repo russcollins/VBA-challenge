@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module2"
+Attribute VB_Name = "Module1a"
 Sub stock_stats():
 
 Dim ticker As String
